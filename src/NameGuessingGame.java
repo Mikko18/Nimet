@@ -5,7 +5,7 @@ public class NameGuessingGame {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
-        String correctName = "Eric";
+        String correctName = "Jeff";
         String guess;
 
         System.out.println("Guess the name:");
