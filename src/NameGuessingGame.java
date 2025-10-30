@@ -8,15 +8,15 @@ public class NameGuessingGame {
         String correctName = "Jeff";
         String guess;
 
-        System.out.println("Guess the name:");
+        System.out.print("Guess the name: ");
         while (true) {
             guess = in.nextLine();
 
             if (guess.equalsIgnoreCase(correctName)) {
-                System.out.println("Yes! Congratulations!");
+                System.out.print("Yes! Congratulations!");
                 break;
             } else {
-                System.out.println("No. Try again:");
+                System.out.print("No. Try again: ");
  }
         }
 
